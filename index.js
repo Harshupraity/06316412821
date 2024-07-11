@@ -7,7 +7,7 @@ const windowSize = 10;
 let numberWindow = [];
 
 app.use(express.json())
-app.use("/",)
+app.use("/",routesh)
 app.listen(port, () => {
     console.log(`Average Calculator service running on http://localhost:${port}`);
 });
